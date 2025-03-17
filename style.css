@@ -1,0 +1,48 @@
+.logo-bg{
+    border:1px solid black;
+    padding:10px;
+
+    border-radius: 10px;
+    background-color: black;
+}
+.vl{
+    border-left: 2px solid gray;
+  height: 30px;
+}
+.backpic{
+  background-image: url("../images/Homepage-header-2000.webp");
+  background-repeat: no-repeat;
+  height:500px;
+ 
+  background-size: cover;
+}
+.vr{
+  border-right: 1px solid gray;
+  height: auto;
+}
+.offer-card {
+  flex: 0 0 auto;
+  width: calc(25% - 15px);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #0044cc, #007bff);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.bg-img{
+  background-image: url("../images/primoHomeBannerComp.webp");
+  background-repeat: no-repeat;
+  height:500px;
+ 
+  background-size: contain;
+  border-radius: 40px;
+}
+#img1{
+  float:left;
+}
+#img2{
+  float:left;
+}

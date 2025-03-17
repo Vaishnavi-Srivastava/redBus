@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking Online at Cheapest Price with Top Bus Operators- redbus</title>
+    <link rel="icon" type="image" href="images/rdc-redbus-logo.svg"></head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <div class="container-fluid">
+        <!--Navbar starts-->
+        <div class="row " style="background-color: white; position:sticky;top:0;">
+          <nav class="navbar navbar-expand-lg p-2">
+              <div class="container-fluid">
+                  <div class="col-sm-6  d-flex justify-content-start align-items-center ">
+                      <a class="navbar-brand mx-5 my-auto" href="#">
+                          <img src="images/rdc-redbus-logo.svg" alt="Logo" width="70" height="50" class="d-inline-block align-text-top" >
+                          
+                        </a>
+                        <div class="vl"></div>
+                        <a class="navbar-brand mx-5 my-auto" href="#">
+                          <img src="images/rdc-redbus-logo.webp" alt="Logo" width="90" height="60"  class="d-inline-block align-text-top logo-bg">
+                          
+                        </a>
+                        <a class="navbar-brand mx-3" href="#">
+                          <img src="images/rail_vertical.svg" alt="Logo" width="90" height="60"  class="d-inline-block align-text-top logo-bg">
+                          
+                        </a>
+                  </div>
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-4 d-flex justify-content-start align-items-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active mx-3" aria-current="page" href="#"><i class="fa-solid fa-headphones-simple"></i> Help</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-comments"></i> 
+                            English
+                          </a>
+                          <ul class="dropdown-menu" style="border-radius: 10px;">
+                            <li><a class="dropdown-item p-2" href="#">English</a></li>
+                            <li><a class="dropdown-item p-2" href="#">Hindi</a></li>
+                            <li><a class="dropdown-item p-2" href="#">Tamil</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-circle-user"></i> 
+                            Account
+                          </a>
+                          <ul class="dropdown-menu" style="border-radius: 10px;">
+                            <li><a class="dropdown-item p-2" href="#">Cancel Ticket</a></li>
+                            <li><a class="dropdown-item p-2" href="#">Change Travel Date</a></li>
+                            <li><a class="dropdown-item p-2" href="#">Show my Ticket</a></li>
+                            <li><a class="dropdown-item p-2" href="#">Email/SMS</a></li>
+                              <hr>
+                              <li><a class="dropdown-item" href="#">Login/Sign Up</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </nav>
+      </div>
+        <!--Navbar stops-->
+        <!--Background pic starts-->
+        <div class="row ">
+          <div class="backpic">
+            <div class="row">
+              <h1 class="text-center mt-4" style="color:white;">India's No. 1 Online Bus Ticket Booking Site</h1>
+            </div>
+            <div class="col-sm-10 mx-auto">
+              <div class="row " style="margin-top:120px;height:80px;border-radius: 30px; background-color: white;">
+                <div class="col-sm-3 d-flex justify-content-start align-items-center"><i class="fa-solid fa-bus"></i>  From
+                <input type="text" style="border:1px solid white;">
+                </div>
+                
+                <div class="col-sm-3 d-flex justify-content-start align-items-center"><i class="fa-solid fa-bus"></i> To
+                  <input type="text" style="border:1px solid white;">
+                </div>
+                
+                <div class="col-sm-3 d-flex justify-content-start align-items-center"><i class="fa-solid fa-calendar-days"></i> Date
+                  <input type="date" style="border:1px solid white;">
+                </div>
+                
+                <div class="col-sm-3 d-flex justify-content-center align-items-center text-white" style="border: 1px solid red; border-radius:0px 30px 30px 0px; background-color: red;">
+                  <button type="button"  class="btn text-white">Search Buses</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <!--Trending offers starts-->
+            <div class="row">
+              <div class="col-sm-10 mx-auto">
+              
+                <div class="row " style="margin-top: -50px;border-radius: 30px; background-color: white;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                  <div class="row ">
+                    <div class="col-sm-5">
+                      <h3 class="text-start ms-3 mt-3" >TRENDING OFFERS</h3>
+                    </div>
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-2 text-end">
+                      <button type="button" class="btn btn-primary me-3 mt-3">View All</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 d-flex justify-content-center align-items-center p-3"> 
+                      <div class="row">
+                        <div class="card d-flex justify-content-center align-items-center text-center m-2"  style="background-image: linear-gradient(to right,rgb(63, 63, 230), rgb(118, 118, 241));">
+                          <img src="images/img1.png"  alt="..." height="100px" width="100px" style="border-radius: 50%;">
+                          <div class="card-body">
+                            <h5 class="card-title text-white">Valid till 2025</h5>
+                            <p class="card-text text-white">Save upto Rs250 on bus tickets</p>
+                            <a href="#" class="btn btn-primary text-white">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-4 d-flex justify-content-center align-items-center p-3 ">
+                      <div class="row">
+                        <div class="card d-flex justify-content-center align-items-center text-center m-2" style="background-image: linear-gradient(to right,rgb(43, 189, 14), rgb(135, 236, 112));" >
+                          <img src="images/img2.png"  alt="..." height="100px" width="100px" style="border-radius: 50%;">
+                          <div class="card-body text-white">
+                            <h5 class="card-title">Valid till 19 March</h5>
+                            <p class="card-text">Save upto Rs500 on HDFC tickets</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-4 d-flex justify-content-center align-items-center p-3 ">
+                      <div class="row">
+                        <div class="card d-flex justify-content-center align-items-center text-center m-2" style="background-image: linear-gradient(to right,rgb(237, 13, 13), rgb(235, 110, 110));" >
+                          <img src="images/img3.png"  alt="..." height="100px" width="100px" style="border-radius: 50%;">
+                          <div class="card-body text-white">
+                            <h5 class="card-title">Valid till 31 March</h5>
+                            <p class="card-text">Save upto Rs300 on bus tickets</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+          
+                </div>
+              </div>
+            </div>
+            <!--Trending offers stops-->
+         
+        <!--Background pic stops-->
+        <!--Gov Buses start-->
+        <div class="row mt-4">
+          <div class="col-sm-10 mx-auto">
+              
+            <div class="row " >
+              <div class="row ">
+                <div class="col-sm-5">
+                  <h3 class="text-start ms-3 mt-3" >Government Buses</h3>
+                </div>
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2 text-end">
+                  <button type="button" class="btn btn-primary me-3 mt-3">View All</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 d-flex justify-content-center align-items-center p-3"> 
+                  <div class="row" >
+                    <div class="card d-flex justify-content-center align-items-center text-center m-2"  style="   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                      <img src="images/img4.png"  alt="..." height="100px" width="100px" style="border-radius: 50%;">
+                      <div class="card-body">
+                        <h5 class="card-title">UPSRTC</h5>
+                        <p class="card-text">1738 services including Janrath Shatabdi and more</p>
+                        <a href="#" class="btn btn-primary">Get Ticket</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-sm-4 d-flex justify-content-center align-items-center p-3 ">
+                  <div class="row">
+                    <div class="card d-flex justify-content-center align-items-center text-center m-2" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
+                      <img src="images/img5.png"  alt="..." height="100px" width="100px" style="border-radius: 50%;">
+                      <div class="card-body">
+                        <h5 class="card-title">BSRTC</h5>
+                        <p class="card-text">220 services including Volvo Bus, AC & non AC Bus and more</p>
+                        <a href="#" class="btn btn-primary">Get Ticket</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-sm-4 d-flex justify-content-center align-items-center p-3 ">
+                  <div class="row">
+                    <div class="card d-flex justify-content-center align-items-center text-center m-2" style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
+                      <img src="images/img6.png"  alt="..." height="100px" width="100px" style="border-radius: 50%;">
+                      <div class="card-body">
+                        <h5 class="card-title">RSRTC</h5>
+                        <p class="card-text">6000 services including Deluxe, Ordinary and more</p>
+                        <a href="#" class="btn btn-primary">Get Ticket</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+      
+            </div>
+          </div>
+        </div>
+        <!--Gov buses stop-->
+        <!--Bus tickets start-->
+        <div class="row mt-3">
+          <div class="col-sm-10 mx-auto">
+            <div class="row">
+              <div class="col-sm-6">
+                <div>
+                  <h1 style="line-height: 60px;">NOW GET MORE THAN<br>JUST BUS TICKETS WITH REDBUS!</h1>
+                </div>
+                <div>
+                  <img src="images/rail_vertical.svg" alt="image" height="50px" width="50px"><span style="color:brown"><b>  Train Tickets</b></span> 
+                </div>
+                <div>
+                  <p style="line-height: 40px;font-size: larger;">Book IRCTC Train Tickets on redRail simple & superfast booking process with no service fee + no payment gateway charge.</p>
+                </div>
+                <div>
+                  <img src="images/railAuthorized.png" alt="image" height="45px" width="45px"><span ><b>  Authorised IRCTC Partner</b></span> 
+                </div>
+                <br>
+                <div>
+                  <img src="images/railHasslefree.svg" alt="image" height="45px" width="45px"><span ><b>  Authorised IRCTC Partner</b></span> 
+                </div>
+                <br>
+                <div>
+                  <img src="images/railrefunds.svg" alt="image" height="45px" width="45px"><span ><b>  Authorised IRCTC Partner</b></span> 
+                </div>
+                <br>
+                <div>
+                  <button type="button" class="btn btn-danger"><b>Book Train Tickets</b> <i class="fa-solid fa-arrow-right" style="color:white"></i></button>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <img src="images/railPop.webp" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Bus tickets stops-->
+        <!--Primo starts-->
+        <div class="row mt-3">
+          <div class="col-sm-10 mx-auto">
+            <div class="row bg-img d-flex justify-content-end align-items-end" style="background-color: rgba(251,202,63,255);">
+              <div style="background-color: rgba(24,51,92,255); height:100%; width:40%; border-radius: 40px;">
+                <div style="color:white;" class="mt-5 ms-4">
+                 
+                  <h1 >
+                    <i class="fa-solid fa-stopwatch"></i>
+                    On time
+                   </h1> <h4>Punctual arrivals on 95% trips</h4>
+                   <br><br>
+                   <h1 >
+                    <i class="fa-solid fa-hands-praying"></i>
+                    Friendly Staff
+                  </h1> <h4>Always ready to help</h4>
+                  <br><br>
+                  <h1 >
+                    <i class="fa-solid fa-star"></i>
+                    Top Rated
+                   </h1> <h4>Buses with 4+ star rating</h4>
+                 
+                </div>
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Primo stops-->
+        <!--Global Presence starts-->
+        <div class="row mt-5 py-4">
+          <div class="col-sm-10 mx-auto">
+            <h3>Global Presence</h3>
+            <div class="row mt-2">
+              <div class="col-sm-2 text-center">
+                <img src="images/Colombia.svg" alt="image">
+                <h6>Colombia</h6>
+              </div>
+              <div class="col-sm-2 text-center">
+                <img src="images/India.svg" alt="image">
+                <h6>India</h6>
+              </div>
+              <div class="col-sm-2 text-center">
+                <img src="images/Indonesia.svg" alt="image">
+                <h6>Indonesia</h6>
+              </div>
+              <div class="col-sm-2 text-center">
+                <img src="images/Malaysia.svg" alt="image">
+                <h6>Malaysia</h6>
+              </div>
+              <div class="col-sm-2 text-center">
+                <img src="images/Peru.svg" alt="image">
+                <h6>Peru</h6>
+              </div>
+              <div class="col-sm-2 text-center">
+                <img src="images/Singapore.svg" alt="image">
+                <h6>Singapore</h6>
+              </div>
+                           
+            </div>
+            
+          </div>
+        </div>
+        <!--Global Presence stops-->
+        <!--Book Bus tickets online start-->
+        <div class="row mt-5">
+          <div class="col-sm-10 mx-auto">
+            <h2>BOOK BUS TICKETS ONLINE</h2>
+            <div class="mt-4">
+              <p style="line-height: 40px; font-size: larger;">redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus and train ticket booking; with over 36 million satisfied customers, 3500+ bus operators to choose from, and plenty of offers on bus ticket booking, redBus makes road journeys super convenient for travellers. A leading platform for booking bus tickets, redBus has been the leader in online bus booking over the past 17 years across thousands of cities and lakhs of routes in India.</p>
+              <p style="line-height: 40px; font-size: larger;">Booking a bus ticket online on the redBus app or website is very simple. You can download the redBus app or visit redbus.in and enter your source, destination & travel date to check the top-rated bus services available. You can then compare the cheapest ticket price, user ratings & amenities, select your preferred seat, boarding & dropping points and pay using multiple payment options like UPI, debit or credit card, net banking and more. With redBus, get assured safe & secure payment methods and guaranteed travel with the best seat and bus operator of your choice at an affordable bus ticket price. Once the bus booking payment is confirmed, all you have to do is pack your bags and get ready to travel with the m-ticket, which you can show to the bus operator on your mobile before boarding the bus. Online bus ticket booking with redBus is that simple!</p>
+              <p style="line-height: 40px; font-size: larger;">redBus also offers other exclusive benefits on online bus tickets like flexible ticket rescheduling options, easy & friendly cancellation policies, and instant payment refunds. With a live bus tracking feature, you can plan travel and never miss the bus. You can get the cheapest bus tickets by availing the best discounts for new & existing customers. With redDeals, you can also get exclusive & additional discounts on your online bus ticket booking. You will get 24/7 customer support on call, chat & help to resolve all your queries in English & local languages.</p>
+              <p style="line-height: 40px; font-size: larger;">redBus offers Primo bus services, specially curated by redBus, which have highly rated buses at the lowest bus ticket price and best-in-class service. With Primo by redBus, you can be assured of safe, comfortable, and on-time bus service at no additional cost. With multiple boarding and dropping points available across all major cities in India, you can select at your convenience and enjoy a smooth travel experience.</p>
+              <p style="line-height: 40px; font-size: larger;">redBus operates in six countries, including India, Malaysia, Singapore, Indonesia, Peru, and Colombia. Through its website and app, it has sold over 220 million bus tickets worldwide. With over 36 million satisfied customers, redBus is committed to providing its users with a world-class online bus booking experience.</p>
+              <p style="line-height: 40px; font-size: larger;">redBus offers bus tickets from some of the top private bus operators, such as Orange Travels, VRL Travels, SRS Travels, Chartered Bus, A1 Travels and Praveen Travels, and state government bus operators, such as APSRTC, TSRTC, GSRTC, Kerala RTC, TNSTC, RSRTC, UPSRTC, and more. With redBus, customers can easily book bus tickets for different bus types, such as AC/non-AC, Sleeper, Seater, Volvo, Multi-axle, AC Sleeper, Electric buses, and more.</p> 
+            </div>
+          </div>
+        </div>
+        <!--Book Bus tickets online stops-->
+        <!--Bus Booking redDeals on redBus starts-->
+        <div class="row mt-5">
+          <div class="col-sm-10 mx-auto">
+            <h2>BOOK BUS TICKETS ONLINE</h2>
+            <div>
+              <p style="line-height: 40px; font-size: larger;">Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone!</p>
+            </div>
+            <div class="row p-3" style="border:1px solid gray; border-radius: 15px;">
+              <div class="col-sm-2 d-flex justify-content-center align-items-center">
+                <img src="images/rdc-redbus-logo.svg">
+              </div>
+              <div class="col-sm-7 d-flex justify-content-center align-items-center">
+                <h3>Unlock Unbeatable Exclusive redDeals!<span style="color:brown;"> 20% OFF</span> </h3>
+                
+              </div>
+              <div class="col-sm-3 d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-danger p-3 py-2">Book Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Bus Booking redDeals on redBus stops-->
+        <!--Footer start-->
+        <div class="row mt-5" style="background-color: lightgrey;">
+          <div class="col-sm-10 mx-auto">
+            <div class="row p-4">
+              <div class="col-sm-3 ">
+                <img src="images/rdc-redbus-logo.svg" alt="image" height="200px" width="200px">
+                <p style="text-align: justify;">redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.</p>
+              </div>
+              <div class="col-sm-1"></div>
+              <div class="col-sm-2">
+                <h5>About redBus</h5>
+                <hr>
+                <p style="line-height: 30px;">About us<br>
+                  Investor<br>
+                   Relations<br>
+                  Contact us<br>
+                  redBus on mobile<br>
+                  Sitemap<br>
+                  Offers<br>
+                  Careers<br>
+                  Values</p>
+              </div>
+              <div class="col-sm-2">
+                <h5>Info</h5>
+                <hr>
+                <p style="line-height: 30px;">
+                  T&C<br>
+                  Privacy policy<br>
+                  FAQ<br>
+                  Blog<br>
+                  Bus operator registration<br>
+                  Agent registration<br>
+                  Insurance partner<br>
+                  User agreement<br>
+                  Primo Bus<br>
+                  Bus Timetable
+                </p>
+              </div>
+              <div class="col-sm-2">
+                <h5>Global Sites</h5>
+                <hr>
+                <p style="line-height: 30px;">
+                  India<br>
+                  Singapore<br>
+                  Malaysia<br>
+                  Indonesia<br>
+                  Peru<br>
+                  Colombia<br>
+                  Cambodia<br>
+                  Vietnam
+                </p>
+              </div>
+              <div class="col-sm-2">
+                <h5>Our Partners</h5>
+                <hr>
+                <p style="line-height: 30px;">
+                  Goibibo Bus<br>
+                  Goibibo Hotels<br>
+                  Makemytrip Hotels
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Footer stop-->
+    </div>
+</body>
+</html>
